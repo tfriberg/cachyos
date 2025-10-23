@@ -8,4 +8,5 @@ Installation and configuration of CachyOS
 3. Install `ntfs-3g` with _CachyOS Package installer_ to make existing NTFS drives available
 ## Steam
 1. Set default Compatibility to _proton-cachyos (native package)_
+2. Disable Shader Precaching in Steam > Settings > Downloads
 ## Local LLM to use with VSCode or Cursor
