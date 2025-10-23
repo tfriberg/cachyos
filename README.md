@@ -8,5 +8,7 @@ Installation and configuration of CachyOS
 3. Install `ntfs-3g` with _CachyOS Package installer_ to make existing NTFS drives available
 ## Steam
 1. Set default Compatibility to _proton-cachyos (native package)_
-2. Disable Shader Precaching in Steam > Settings > Downloads
+2. For Anticheat enabled/multiplayer games, set Compatibiliy to proton-cacyos-NN.N-NNNNNNNN-slr-x86-64 which is installed with _ProtonUp-QT_
+3. Disable _Shader Precaching_ in Steam > Settings > Downloads
+4. If game gets stuck, _Browse local files_ and navigate to _steamapps/compatdata_ and delete the corresponding SteamID folder
 ## Local LLM to use with VSCode or Cursor
