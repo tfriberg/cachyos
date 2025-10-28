@@ -1,6 +1,12 @@
 # CachyOS [WiP]
 Installation and configuration of CachyOS
 
+## Goals
+- Have LLM run locally
+- Have a *Warp* like experience with local LLM (help with running terminal commands) 
+- Have a *Cursor* like experience with local LLM (help with code editing)
+  - *Zed* seems okay but difficult w/o trial & error to figure out which models have Tools supported. [Create list of working models?] 
+
 ## Installation of CachyOS
 1. Install CachyOS
 2. Make existing disk available and automount by updating `/etc/fstab`
@@ -15,13 +21,18 @@ Installation and configuration of CachyOS
 * AnythingLLM Desktop
 * Ollama
 
-## Utitilies
+## Utilities
 * Double Commander (File manager)
 * Boxes (Virtual Machine management)
 * bauh (.Appimage)
 * KDE Partition Manager (Disk manager)
 * Grsync (GUI for rsync)
+* Oh-my-posh (make terminal look nice) [O-M-P](https://ohmyposh.dev/)
+* TmuxAI [tmuxai.dev](https://tmuxai.dev)
 
+## Good-to-know-commands
+* `lsblk-f` to find eg. disk UUID's
+* `sudo pacman -Syu [Appname]` to install apps via pacman
 
 ## Gaming
 ### Steam
@@ -34,5 +45,10 @@ Installation and configuration of CachyOS
 * Protontricks
 
 ### Lutris
+* TBA
 
 ### Heroic Games Launcher
+* TBA
+
+### VR
+* TBA
